@@ -34,6 +34,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development do
   gem 'quiet_assets'
+  gem 'better_errors', '< 2.0' #VuDo needs ruby 2
+  gem "binding_of_caller"
+  gem 'pry'
+  gem 'pry-nav'
+
 end
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
