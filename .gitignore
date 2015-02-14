@@ -11,3 +11,9 @@
 /log/*
 !/log/.keep
 /tmp
+/.idea/
+/config/database.yml
+/log/*.log/
+/nbproject/
+.ruby-version
+.ruby-gemset
